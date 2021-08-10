@@ -9,7 +9,6 @@ export default function App() {
             <Product title={'juice'} price={'120 uah'}/>
             <Product title={'bread'} price={'40 uah'}/>
 
-
         </div>
     );
 }

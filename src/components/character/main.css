@@ -1,0 +1,8 @@
+.company,.address,.geo{
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    background: #61dafb;
+    border: 4px double black ;
+}

@@ -9,7 +9,7 @@ export default function Simpson({name, surname,age,info,photo}) {//props
         <div className={'simpson'}>
             <h1>{name}</h1>
             <h2>{surname}</h2>
-            <h3>age - {age}</h3>
+            <h3>agge - {age}</h3>
             <p>{info}</p>
             <img src={photo} alt=""/>
             <hr/>

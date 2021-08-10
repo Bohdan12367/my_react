@@ -1,14 +1,17 @@
 
 import './Character.css';
 
-export default function Product({title, price}) {//props
+export default function Simpson({name, surname,age,info,photo}) {//props
     // let {title, price} = props;
 
 
     return (
-        <div className={'product'}>
-            <h2>{title}</h2>
-            <h3>price is - {price}</h3>
+        <div className={'simpson'}>
+            <h1>{name}</h1>
+            <h2>{surname}</h2>
+            <h3>age - {age}</h3>
+            <p>{info}</p>
+            <img src={photo} alt=""/>
             <hr/>
         </div>
     );
